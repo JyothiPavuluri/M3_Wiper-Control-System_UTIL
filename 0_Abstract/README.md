@@ -13,6 +13,8 @@ controller and water sensor. As the conclusion for the project, the results show
 objectives are successfully achieved. The wiper system was well functionally according the water condition from the outside of a
 car. 
 
+  ![wiper system](https://user-images.githubusercontent.com/101269692/168070454-9a4ae7e7-fda1-4cef-be70-17ebf78016eb.png)
+
 
 ## Implementation
 
@@ -38,4 +40,5 @@ arm holding the blade, a spring linkage, and parts of the wiper pivots. The wipe
 
 
 
-![image](https://user-images.githubusercontent.com/101269692/167684592-c298bea4-3745-4cad-bc16-b0b8d31268fa.png)
+
+
