@@ -1,4 +1,4 @@
-# 1 REQUIREMENTS:
+#  REQUIREMENTS:
 
 ##  Introduction:
 
@@ -63,7 +63,40 @@ The Following are the important components to build Wiper Control System
 
 # 4W's and 1'H
 
+## Who:
+* The car wiper control system can be used by people who are all having car.
+
 ## What?
-* 
+* Wiper Control System is build to clean or wipe the raindrops or any water from the windscreen. 
+
+## When:
+* The rain sensor based system functions when water falls on the sensor directly.
+
+## Where:
+* This system applied in the case of water falling on the class only.
+
+## How:
+* The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
+
+# Detail requirements
+
+## High Level Requirements:
+|ID    |Component|Description  |
+|------|-------------|---------|
+|HLR01|LED |to represent the operation of Microcontroller |  
+|HLR02|Timer|For Setting Delay|
+|HLR03|Power Supply|The power supply make the working of hardware |
+|HLR04|Frequency|Come on and OFF alternately for set frequency in HZ|
+|HLR05|Switch|To make on and off Conditions|
+
+## Low Level Requirements:
+| ID | Low Level Requirements for HL1 | | ID | Low Level Requirements for HL1 |
+|---- | ------------- | |---- | ------------- | 
+| LLR1.1 | ATmega328 | | LLR1.1 | ATmega328 |
+| LLR1.2 | Switch pins,LED and ADC | | LLR1.2 | Switch pins,LED and ADC |
+
+
+
+
 
 
