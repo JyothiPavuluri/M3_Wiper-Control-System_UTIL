@@ -12,19 +12,21 @@ Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed
 
 Automatic Wipers can be understood as smart wipers that automatically turn on sensing rain, and adjust their speed as per the intensity of rainfall. Most automatic wipers use a sensor that is placed behind the windshield. When it rains, the sensor beams out infrared light that is reflected back at different angles based upon the intensity of water droplets falling on the windshield. The more the rain, the less the light is reflected. Based on the amount of light reflected, the system activates the wiper and controls its speed as well.
 
-## Basic Requirements
+# Basic Requirements
 * Hardware Equipment
 * Software
 
-## Used components
+# Used components
 
 The Following are the important components to build Wiper Control System
-* ARM Based Microcontrollers
+* STM32F4 Microcontroller
 * 4 LEDs
-* 1 Switch
+* 1 Push Button or Switch
 * 1 Timer
+* power Supply
+* USB Cable
 
-## Features:
+# Features:
  * Wiper Control System controls up to 9 windshield wipers. 
  * Each wiper has its own on/off  button.
  * Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
@@ -81,7 +83,7 @@ The Following are the important components to build Wiper Control System
 # Detail requirements
 
 ## High Level Requirements:
-|ID    |Component|Description  |
+| ID  | Component| Description  |
 |------|-------------|---------|
 |HLR01|LED |to represent the operation of Microcontroller |  
 |HLR02|Timer|For Setting Delay|
@@ -90,11 +92,14 @@ The Following are the important components to build Wiper Control System
 |HLR05|Switch|To make on and off Conditions|
 
 ## Low Level Requirements:
-| ID | Low Level Requirements for HL1 | | ID | Low Level Requirements for HL1 |
-|---- | ------------- | |---- | ------------- | 
-| LLR1.1 | ATmega328 | | LLR1.1 | ATmega328 |
-| LLR1.2 | Switch pins,LED and ADC | | LLR1.2 | Switch pins,LED and ADC |
-
+| ID | Low Level Requirements for HLR1 | ID	| Low Level Requirements for HLR2 |
+| :---: | :---: | :---: | :---: |
+| LLR1.1 |	If the user Button is pressed and held for 2 secs,the Red LED is ON | LLR2.1 |	If the user Button is pressed and held for 2 secs,the Red LED is OFF |
+| LLR1.2  |	The system shall ON the LED's |	LLR2.2 | The system shall OFF the LED's  |
+| **ID** |	**Low Level Requirements for HLR3** |	**ID** | **Low Level Requirements for HLR4** |
+| LLR3.1 | On press of the user input all LEDs come ON at a time |	LLR4.1 | Again, On press of the user input all LEDs come OFF at a time |
+| LLR3.2 | All LEDs come ON one at changes on every alternate key press |	LLR4.2 | The LED glow pattern stops on the 4th press |
+| LLR3.3 | then 3 frequency levels with 1,4 and 8HZ | LLR4.3 | then wiper action starts next press |
 
 
 
