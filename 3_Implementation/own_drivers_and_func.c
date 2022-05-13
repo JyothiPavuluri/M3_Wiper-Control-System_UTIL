@@ -1,5 +1,5 @@
 /**
- * @file own_drivers_and_func.h
+ * @file own_drivers_and_func.c
  * @author by jyothi pavuluri
  * @brief
  * @version 0.1
