@@ -1,158 +1,104 @@
 /**
- * authors Shirisha , Deepika , Ravi , Navin
- * Date : 12/3/2022
- * Generated in STMCUBE IDE
- * Project Title: Bicom system
+ * @file   : main.c
+ * @author : jyothi pavuluri
+ * @Date   : 11/5/2022
+ * @Generated in STMCUBE IDE
+ * @Project Title: Wiper Control System
+ * @copyright Copyright (c) 2022
  */
 
-#include "MyStm32f407xx.h"
-#define BTN_PRESSED ENABLE
-#define BTN_RELEASED DISABLE
-const int delay_ms = 100000;
-void delay(uint32_t tdelay) // used to create time delay  by Shirisha
+
+#include "own_drivers_and_func.h"
+#include <stdio.h>
+
+static void ignition_ON(void);			   // here this function will Turn on all RED LED's 
+static void status(void);		   // here this function will Turn off all the LED's at once
+static void door_status(void);  // here this function will on and off LED's with a certain delay (in anti-clockwise)
+static void ignition_OFF(void); // here this function will on RED LED's 
+
+static void ignition_ON(void) 
 {
-	for(uint32_t i=0;i<((tdelay * delay_ms)/2);i++)
-{
+	
+	led_ON(LED_RED);
+	
 }
 
+static void ignition_OFF(void) 
+{
+           
+	led_OFF(LED_RED);
+}
+
+static void car_battery_info(void) 
+{
+
+	led_on(LED_GREEN);
+	my_delay_ms(350);
+	led_off(LED_GREEN);
+	led_on(LED_ORANGE);
+	my_delay_ms(350);
+	led_off(LED_ORANGE);
+	led_on(LED_RED);
+	my_delay_ms(350);
+	led_off(LED_RED);
+	led_on(LED_BLUE);
+	my_delay_ms(350);
+	led_off(LED_BLUE);
+	led_on(LED_GREEN);
+	my_delay_ms(350);
+	led_off(LED_GREEN);
+}
+
+static void door_status(void) // This function is done by Varun S with help of Nyalam Praveenraj
+{
+
+	led_on(LED_GREEN);
+	my_delay_ms(350);
+	led_off(LED_GREEN);
+	led_on(LED_BLUE);
+	my_delay_ms(350);
+	led_off(LED_BLUE);
+	led_on(LED_RED);
+	my_delay_ms(350);
+	led_off(LED_RED);
+	led_on(LED_ORANGE);
+	my_delay_ms(350);
+	led_off(LED_ORANGE);
+	led_on(LED_GREEN);
+	my_delay_ms(350);
+	led_off(LED_GREEN);
 }
 
 
 int main(void)
-{
-    GPIO_Handle_t GpiogLed,GpiooLed,GpiorLed,GpiobLed,GpioBtn;
-    GpiogLed.pGPIOx = GPIOD;                                  // Initialise pin for green led by Shirisha
-    GpiogLed.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_12;
-    GpiogLed.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_OUT;
-    GpiogLed.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_MEDIUM;
-    GpiogLed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
-    GPIO_PeriClockControl(GPIOD, ENABLE);
-    GPIO_Init(&GpiogLed);
-
-        GpiooLed.pGPIOx = GPIOD;                             // Initialise pin for orange led by Deepika
-    	GpiooLed.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_13;
-        GpiooLed.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_OUT;
-        GpiooLed.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_MEDIUM;
-        GpiooLed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
-        GPIO_PeriClockControl(GPIOD, ENABLE);
-        GPIO_Init(&GpiooLed);
-
-            GpiorLed.pGPIOx = GPIOD;                         // Initialise pin for red led by Ravi
-            GpiorLed.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_14;
-            GpiorLed.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_OUT;
-            GpiorLed.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_MEDIUM;
-            GpiorLed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
-            GPIO_PeriClockControl(GPIOD, ENABLE);
-            GPIO_Init(&GpiorLed);
-
-                GpiobLed.pGPIOx = GPIOD;                      // Initialise pin for blue led by Navin
-            	GpiobLed.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_15;
-                GpiobLed.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_OUT;
-                GpiobLed.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_MEDIUM;
-                GpiobLed.GPIO_PinConfig.GPIO_PinOPType = GPIO_OP_TYPE_PP;
-                GPIO_PeriClockControl(GPIOD, ENABLE);
-                GPIO_Init(&GpiobLed);
 
 
+	led_init_all();
+	button_init();
 
+	while (1)
+	{
+		volatile int btncnt = btn_press();
+		if (btncnt == 1)
+		{ // comparing the no of counts of button
+			ignition_ON();
+			btncnt = 0;
+		}
+		else if (btncnt == 2)
+		{ // comparing the no of counts of button
+			ignition_Off();
+			btncnt = 0;
+		}
+		else if (btncnt == 3)
+		{ // comparing the no of counts of button
+			car_battery_info();
 
-    GpioBtn.pGPIOx = GPIOA;  // Initialise pin for blue switch by Navin
-    GpioBtn.GPIO_PinConfig.GPIO_PinNumber = GPIO_PIN_NO_0;
-    GpioBtn.GPIO_PinConfig.GPIO_PinMode = GPIO_MODE_IN;
-    GpioBtn.GPIO_PinConfig.GPIO_PinSpeed = GPIO_SPEED_MEDIUM;
-    GpioBtn.GPIO_PinConfig.GPIO_PinPuPdControl = GPIO_NO_PUPD;
-    GPIO_PeriClockControl(GPIOA, ENABLE);
-    GPIO_Init(&GpioBtn);
-
-int btn_count(void) // to calculate Button count by Deepika
-{
-int count =0;
-int n = 5;
-while(n!=0)
-{
- n--;
- if(GPIO_ReadFromInputPin(GPIOA, GPIO_PIN_NO_0)==BTN_RELEASED)
-{
-delay(5);
-count++;
-if(count>4)
-{
-count=0;
-}
-}
-}
-return count;
-}
-void window_status(void) // for window status by Shirisha
-{
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_SET);
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_SET);
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_SET);
-}
-
-void car_battinfo(void) // for car battery info by Deepika
-{
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_RESET);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_RESET);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_RESET);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_RESET);
-}
-
-void door_status(void) // for door status by Ravi
-{
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_RESET);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_RESET);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_RESET);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_SET);
-	                delay(5);
-		    	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_RESET);
-}
-
-void alarm_status(void) // for alarm status by Navin
-{
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_12,GPIO_PIN_RESET);
-    GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_13,GPIO_PIN_RESET);
-    GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_14,GPIO_PIN_RESET);
-	GPIO_WriteToOutputPin(GPIOD, GPIO_PIN_NO_15,GPIO_PIN_RESET);
-}
-while (1) // for calling the functions by Navin
-{
-     volatile int bcnt = btn_count();
-     if(bcnt == 1)
-     {
-    	window_status();
-    	bcnt = 0;
-     }
-
-       if(bcnt == 2)
-         {
-    	   alarm_status();
-        	bcnt = 0;
-         }
-        if(bcnt == 3)
-         {
-        	car_battinfo();
-        	bcnt = 0;
-         }
-          if(bcnt == 4)
-          {
-        	  door_status();
-        	bcnt = 0;
-          }
-}
+			btncnt = 0;
+		}
+		else if (btncnt == 4)
+		{ // comparing the no of counts of button
+			door_status();
+			btncnt = 0;
+		}
+	}
 }
