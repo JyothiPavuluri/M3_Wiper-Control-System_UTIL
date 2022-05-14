@@ -14,6 +14,8 @@ Scenario: Wiper Control System. Ignition Key Position at ACC: The Red LED is ON,
 
 Codacy Badge | Code Quality | Code Grade |
 ------| ------- |---------- |
+| ![code Qualityscore Badge](https://api.codiga.io/project/33488/score/svg) | ![Code Grade](https://api.codiga.io/project/33488/status/svg) |
+ 
  
  
 | Folder Name | Contents |
