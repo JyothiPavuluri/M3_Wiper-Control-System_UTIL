@@ -8,6 +8,10 @@ Wiper ON: Wiper is OFF: On press of the user input, Blue, Green and Orange LEDs 
 Wiper OFF: Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2
 Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs
 
+
+![wiper system](https://user-images.githubusercontent.com/101269692/168070454-9a4ae7e7-fda1-4cef-be70-17ebf78016eb.png)
+
+
 ## Benefits of Wiper Control System
 
 Automatic Wipers can be understood as smart wipers that automatically turn on sensing rain, and adjust their speed as per the intensity of rainfall. Most automatic wipers use a sensor that is placed behind the windshield. When it rains, the sensor beams out infrared light that is reflected back at different angles based upon the intensity of water droplets falling on the windshield. The more the rain, the less the light is reflected. Based on the amount of light reflected, the system activates the wiper and controls its speed as well.
