@@ -3,9 +3,12 @@
 ##  Introduction
 
 *  wipers keep the windshield of a vehicle clear from rain water, snow, dust and road spray. The first windshield wipers were operated manually by moving a lever inside the car. Later wiper designs were powered by the engine's manifold vacuum. Virtually all wipers today employ an electric motor coupled with a linkage mechanism and are actuated by a knob beside the steering wheel. The wiper blade speed can be adjusted by the driver.
+
+
 * Modern windshield wipers may also be run intermittently. The intermittent wiper option cycles the wipers on and off every few seconds rather than running constantly. Intermittent control first appeared in automobiles in the 1970's. The original intermittent wipers were controlled by a constant power source that was routed through a series of switches. Now, virtually all automotive wipers are controlled by a microprocessor.
 
 ![working of wiper](https://user-images.githubusercontent.com/101269692/168426614-4e1e6023-b1c2-4e23-ae34-be1ab9928928.jpg)
+
 
 * Many wiper systems in cars today use a rain sensor to detect the speed at which the raindrops are falling on the windshield. A microprocessor evaluates the signals from the sensor to calculate the speed at which the wipers should move.
 
@@ -25,6 +28,8 @@
 Automatic Wipers can be understood as smart wipers that automatically turn on sensing rain, and adjust their speed as per the intensity of rainfall. Most automatic wipers use a sensor that is placed behind the windshield. When it rains, the sensor beams out infrared light that is reflected back at different angles based upon the intensity of water droplets falling on the windshield. The more the rain, the less the light is reflected. Based on the amount of light reflected, the system activates the wiper and controls its speed as well.
 
 # Basic Requirements
+
+
 *  Hardware Equipment
 *  Software
 
@@ -32,6 +37,8 @@ Automatic Wipers can be understood as smart wipers that automatically turn on se
 
 The Following are the important components to build Wiper Control System
 * STM32F4 Microcontroller
+
+
 * 4 LEDs
 * 1 Push Button or Switch
 * 1 Timer
@@ -62,6 +69,7 @@ The Following are the important components to build Wiper Control System
 * This system applied in the case of water falling on the class only.
 * Alert will be start when rain is there,sometimes it disturbs human.
 *  Limited usage range
+
 
 ## Opportunities
 
