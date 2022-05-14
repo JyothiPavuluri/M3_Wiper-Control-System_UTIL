@@ -119,7 +119,7 @@ The Following are the important components to build Wiper Control System
 ## How
 * The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
 
-# Detail requirements
+## Detail requirements
 
 ## High Level Requirements
 | ID  | Component| Description  |
@@ -141,7 +141,7 @@ The Following are the important components to build Wiper Control System
 | LLR3.3 | then 3 frequency levels with 1,4 and 8HZ | LLR4.3 | then wiper action starts next press |
 
 
-# 3.Architecture
+## 3.Architecture
 ## Block Diagram
 ![Block-diagram-of-the-windshield-wiper-system](https://user-images.githubusercontent.com/101269692/168418998-7d8159a1-0b16-4cb5-8c91-f489d57ed2f7.png)
 
@@ -154,7 +154,7 @@ The Following are the important components to build Wiper Control System
   ## State-transistion 
 ![State-transistion](https://user-images.githubusercontent.com/101269692/168419030-69964a6e-3f6d-4817-802b-454d1ef3ea83.png)
 
-# 1.Test plan and Output
+## 1.Test plan and Output
 
    ## High level test plan
    |Test ID|Description|Input|Expected Output|Actual Output|Pass/Fail|
