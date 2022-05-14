@@ -13,10 +13,7 @@ controller and water sensor. As the conclusion for the project, the results show
 objectives are successfully achieved. The wiper system was well functionally according the water condition from the outside of a
 car. 
 
- 
-
 ## Implementation
-
 
  This project showed a contribution on the design of the automatic wiper system for the future research in this same field. It
 is recommended that the system to have a study on the wiper material that been used to make a wiper because the driver at hot
@@ -24,8 +21,6 @@ and climate country are facing the problems regards to the wiper material.n. Wip
 and made to clear the water from a windscreen. Most of cars have two wipers on the windscreen, one on the rear
 window and the other on each headlight. The wiper parts visible from outside the car are the rubber blade, the wiper
 arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called pressure points or claws that are small arms under the wiper
-
-
 
 ## Description
 
