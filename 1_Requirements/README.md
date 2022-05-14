@@ -27,13 +27,13 @@
 
 Automatic Wipers can be understood as smart wipers that automatically turn on sensing rain, and adjust their speed as per the intensity of rainfall. Most automatic wipers use a sensor that is placed behind the windshield. When it rains, the sensor beams out infrared light that is reflected back at different angles based upon the intensity of water droplets falling on the windshield. The more the rain, the less the light is reflected. Based on the amount of light reflected, the system activates the wiper and controls its speed as well.
 
-# Basic Requirements
+## Basic Requirements
 
 
 *  Hardware Equipment
 *  Software
 
-# Used components
+## Used components
 
 The Following are the important components to build Wiper Control System
 * STM32F4 Microcontroller
@@ -45,7 +45,7 @@ The Following are the important components to build Wiper Control System
 * power Supply
 * USB Cable
 
-# Features
+## Features
  * Wiper Control System controls up to 9 windshield wipers. 
  * Each wiper has its own on/off  button.
  * Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
@@ -55,7 +55,7 @@ The Following are the important components to build Wiper Control System
  *  The washing function includes spraying, wiping and purging. 
 
 
-# SWOT Analysis- Strengths, and Weakness, Opportunities threats
+## SWOT Analysis- Strengths, and Weakness, Opportunities threats
 
 ## Strengths
 
@@ -83,7 +83,7 @@ The Following are the important components to build Wiper Control System
 * A slight modification in it leads to a bettrt cleaning system.
 
 
-# 4W's and 1'H
+## 4W's and 1'H
 
 ## Who
 * The car wiper control system can be used by people who are all having car.
@@ -100,7 +100,7 @@ The Following are the important components to build Wiper Control System
 ## How
 * The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
 
-# Detail requirements
+## Detail requirements
 
 ## High Level Requirements
 | ID  | Component| Description  |
