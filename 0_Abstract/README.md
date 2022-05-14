@@ -1,4 +1,3 @@
-
 # Wiper System
 
 ## Objective
