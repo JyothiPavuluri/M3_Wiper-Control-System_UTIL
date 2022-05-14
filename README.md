@@ -10,7 +10,10 @@ Scenario: Wiper Control System. Ignition Key Position at ACC: The Red LED is ON,
 |------| ------- |---------- | ------- |------- |-------|--------------
 | [![Build Linux](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Build%20Linux.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Build%20Linux.yml) | [![Build Windows](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Windows.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Windows.yml) | [![Static Check](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Static.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Static.yml) | [![Dynamic Check](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Dynamic.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Dynamic.yml) | [![Valgrind](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Valgrind.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Valgrind.yml) | [![Unity Testing](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Unity%20Testing.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Unity%20Testing.yml) | [![Contribution Check-Git Inspector](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Inspector.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Inspector.yml) |
 
+# Codacy
 
+Codacy Badge | Code Quality | Code Grade |
+------| ------- |---------- |
  
  
 | Folder Name | Contents |
