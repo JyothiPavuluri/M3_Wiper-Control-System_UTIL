@@ -43,7 +43,6 @@ Wiper ON: Wiper is OFF: On press of the user input, Blue, Green and Orange LEDs 
 Wiper OFF: Wiper is ON: The LED glow pattern stops on the 4th press; the wiper action starts next press onwards as mentioned in step 2
 Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed and held for 2 secs
 
-
 ![wiper system](https://user-images.githubusercontent.com/101269692/168070454-9a4ae7e7-fda1-4cef-be70-17ebf78016eb.png)
 
 ## Benefits of Wiper Control System
