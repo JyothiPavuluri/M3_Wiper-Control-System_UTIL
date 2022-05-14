@@ -68,7 +68,7 @@ The Following are the important components to build Wiper Control System
 * power Supply
 * USB Cable
 
-# Features:
+# Features
  * Wiper Control System controls up to 9 windshield wipers. 
  * Each wiper has its own on/off  button.
  * Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
@@ -180,6 +180,6 @@ The Following are the important components to build Wiper Control System
 # The Test Plan Of The Project Is:
 * To know the importance of the project.
 * The working conditions of the project.
-* The working principle and architecture of sensors.
+* The working principle and architecture of sensor.
 * The microcontroller chip.
-* The sensors interfacing with the microcontroller.
+* The sensor interfacing with the microcontroller.
