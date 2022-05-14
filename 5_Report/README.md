@@ -1,24 +1,26 @@
 # Table of content
+
 ## About the Wiper Control System
 1. Abstract
     1. Objective
-1. Requirements
+2. Requirements
     1. Introduction
-    1. Benefits 
-    1. Basic Requirements
-    1. Used components
-    1. Features
-    1. 5W’s & 1H and S.W.O.T analysis
-    1. High level requirements
-    1. Low level requirements
-1. Architecture
+    2. Benefits 
+    3. Basic Requirements
+    4. Used components
+    5. Features
+    6. 5W’s & 1H and S.W.O.T analysis
+    7. High level requirements
+    8. Low level requirements
+3. Architecture
     1. Block Diagram
     1. Flowchart
     1. Data flow transistion  
     1. State-transistion 
-1. Test plan and Output
+4. Test plan and Output
     1. High level test plan
     1. Low level test plan
+
 ## 1. Abstract
 
 ## Objective
@@ -104,18 +106,28 @@ The Following are the important components to build Wiper Control System
 ## 4W's and 1'H
 
 ## Who
+
+
 * The car wiper control system can be used by people who are all having car.
 
 ## What
+
+
 * Wiper Control System is build to clean or wipe the raindrops or any water from the windscreen. 
 
 ## When
+
+
 * The rain sensor based system functions when water falls on the sensor directly.
 
 ## Where
+
+
 * This system applied in the case of water falling on the class only.
 
 ## How
+
+
 * The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
 
 ## Detail requirements
@@ -140,6 +152,7 @@ The Following are the important components to build Wiper Control System
 | LLR3.3 | then 3 frequency levels with 1,4 and 8HZ | LLR4.3 | then wiper action starts next press |
 
 ## 3.Architecture
+
 ## Block Diagram
 ![Block-diagram-of-the-windshield-wiper-system](https://user-images.githubusercontent.com/101269692/168418998-7d8159a1-0b16-4cb5-8c91-f489d57ed2f7.png)
 
