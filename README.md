@@ -22,4 +22,4 @@ Scenario: Wiper Control System. Ignition Key Position at ACC: The Red LED is ON,
 | Project ⇨ 3_Implementation | Documentation(Doxy), main.c, own_drivers_and_func.c,own_drivers_and_func.h, Startup File, Linker File , Makefile, README.md |
 | Project ⇨ 4_TestPlanAndOutput | README.md(High level and Low level Test plan) |
 | Project ⇨ 5_Report | Report (README.md) |
-| Project ⇨ 7_Images And Output | __Output Images __ |
+| Project ⇨ 7_Images And Output | Output Images |
