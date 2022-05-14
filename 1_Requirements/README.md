@@ -77,24 +77,24 @@ The Following are the important components to build Wiper Control System
 
 # 4W's and 1'H
 
-## Who:
+## Who
 * The car wiper control system can be used by people who are all having car.
 
-## What?
+## What
 * Wiper Control System is build to clean or wipe the raindrops or any water from the windscreen. 
 
-## When:
+## When
 * The rain sensor based system functions when water falls on the sensor directly.
 
-## Where:
+## Where
 * This system applied in the case of water falling on the class only.
 
-## How:
+## How
 * The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
 
 # Detail requirements
 
-## High Level Requirements:
+## High Level Requirements
 | ID  | Component| Description  |
 |------|-------------|---------|
 |HLR01|LED |to represent the operation of Microcontroller |  
@@ -103,12 +103,12 @@ The Following are the important components to build Wiper Control System
 |HLR04|Frequency|Come on and OFF alternately for set frequency in HZ|
 |HLR05|Switch|To make on and off Conditions|
 
-## Low Level Requirements:
+## Low Level Requirements
 | ID | Low Level Requirements for HLR1 | ID	| Low Level Requirements for HLR2 |
 | :---: | :---: | :---: | :---: |
-| LLR1.1 |	If the user Button is pressed and held for 2 secs,the Red LED is ON | LLR2.1 |	If the user Button is pressed and held for 2 secs,the Red LED is OFF |
-| LLR1.2  |	The system shall ON the LED's |	LLR2.2 | The system shall OFF the LED's  |
-| **ID** |	**Low Level Requirements for HLR3** |	**ID** | **Low Level Requirements for HLR4** |
+| LLR1.1 |If the user Button is pressed and held for 2 secs,the Red LED is ON | LLR2.1 |	If the user Button is pressed and held for 2 secs,the Red LED is OFF |
+| LLR1.2  |The system shall ON the LED's |	LLR2.2 | The system shall OFF the LED's  |
+| **ID** |**Low Level Requirements for HLR3** |	**ID** | **Low Level Requirements for HLR4** |
 | LLR3.1 | On press of the user input all LEDs come ON at a time |	LLR4.1 | Again, On press of the user input all LEDs come OFF at a time |
 | LLR3.2 | All LEDs come ON one at changes on every alternate key press |	LLR4.2 | The LED glow pattern stops on the 4th press |
 | LLR3.3 | then 3 frequency levels with 1,4 and 8HZ | LLR4.3 | then wiper action starts next press |
