@@ -34,7 +34,6 @@ objectives are successfully achieved. The wiper system was well functionally acc
 car. 
 
 ## 2.REQUIREMENTS
-
 ##  Introduction
 
 Scenario: Wiper Control System.
@@ -45,7 +44,6 @@ Ignition Key Position at Lock: The Red LED is OFF, if the user button is pressed
 
 
 ![wiper system](https://user-images.githubusercontent.com/101269692/168070454-9a4ae7e7-fda1-4cef-be70-17ebf78016eb.png)
-
 
 ## Benefits of Wiper Control System
 
@@ -142,7 +140,6 @@ The Following are the important components to build Wiper Control System
 | LLR3.1 | On press of the user input all LEDs come ON at a time |	LLR4.1 | Again, On press of the user input all LEDs come OFF at a time |
 | LLR3.2 | All LEDs come ON one at changes on every alternate key press |	LLR4.2 | The LED glow pattern stops on the 4th press |
 | LLR3.3 | then 3 frequency levels with 1,4 and 8HZ | LLR4.3 | then wiper action starts next press |
-
 
 ## 3.Architecture
 ## Block Diagram
