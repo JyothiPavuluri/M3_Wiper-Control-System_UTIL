@@ -19,9 +19,6 @@
 1. Test plan and Output
     1. High level test plan
     1. Low level test plan
-
-
-
 # 1. Abstract
 
 ## Objective
@@ -36,9 +33,9 @@ controller and water sensor. As the conclusion for the project, the results show
 objectives are successfully achieved. The wiper system was well functionally according the water condition from the outside of a
 car. 
 
-# 2.REQUIREMENTS:
+# 2.REQUIREMENTS
 
-##  Introduction:
+##  Introduction
 
 Scenario: Wiper Control System.
 Ignition Key Position at ACC: The Red LED is ON, if the user button is pressed and held for 2 secs
@@ -107,24 +104,24 @@ The Following are the important components to build Wiper Control System
 
 # 4W's and 1'H
 
-## Who:
+## Who
 * The car wiper control system can be used by people who are all having car.
 
-## What?
+## What
 * Wiper Control System is build to clean or wipe the raindrops or any water from the windscreen. 
 
-## When:
+## When
 * The rain sensor based system functions when water falls on the sensor directly.
 
-## Where:
+## Where
 * This system applied in the case of water falling on the class only.
 
-## How:
+## How
 * The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
 
 # Detail requirements
 
-## High Level Requirements:
+## High Level Requirements
 | ID  | Component| Description  |
 |------|-------------|---------|
 |HLR01|LED |to represent the operation of Microcontroller |  
@@ -133,7 +130,7 @@ The Following are the important components to build Wiper Control System
 |HLR04|Frequency|Come on and OFF alternately for set frequency in HZ|
 |HLR05|Switch|To make on and off Conditions|
 
-## Low Level Requirements:
+## Low Level Requirements
 | ID | Low Level Requirements for HLR1 | ID	| Low Level Requirements for HLR2 |
 | :---: | :---: | :---: | :---: |
 | LLR1.1 |	If the user Button is pressed and held for 2 secs,the Red LED is ON | LLR2.1 |	If the user Button is pressed and held for 2 secs,the Red LED is OFF |
@@ -177,7 +174,7 @@ The Following are the important components to build Wiper Control System
 |LLT3| Check for All LED's OFF | on next press of the user input |All LED's shall OFF |All LED's OFF |✔|
 |LLT4|Check for Ignition at LOCK |user button is pressed for 2Secs| Red Led is OFF | Red Led is OFF |✔|
 
-# The Test Plan Of The Project Is:
+# The Test Plan Of The Project Is
 * To know the importance of the project.
 * The working conditions of the project.
 * The working principle and architecture of sensor.
