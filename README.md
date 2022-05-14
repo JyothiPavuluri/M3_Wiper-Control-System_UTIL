@@ -15,7 +15,6 @@ Codacy Badge | Code Quality | Code Grade |
 ------| ------- |---------- |
 | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d36ad03558464184b1bf7e2c3b472f8a)](https://www.codacy.com/gh/JyothiPavuluri/M3_Wiper-Control-System_UTIL/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=JyothiPavuluri/M3_Wiper-Control-System_UTIL&amp;utm_campaign=Badge_Grade) | ![code Qualityscore Badge](https://api.codiga.io/project/33488/score/svg) | ![Code Grade](https://api.codiga.io/project/33488/status/svg) |
  
- 
 | Folder Name | Contents |
 |---|---|
 | Wiper Control System | Below |
