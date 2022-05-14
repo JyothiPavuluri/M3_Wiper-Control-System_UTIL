@@ -16,7 +16,6 @@
 |LLT3| Check for All LED's OFF | on next press of the user input |All LED's shall OFF |All LED's OFF |✔|
 |LLT4|Check for Ignition at LOCK |user button is pressed for 2Secs| Red Led is OFF | Red Led is OFF |✔|
 
-
 ## The Test Plan Of The Project Is
 * To know the importance of the project.
 * The working conditions of the project.
