@@ -77,7 +77,6 @@ The Following are the important components to build Wiper Control System
 * It is totally dependent on timer circuit.
 * A slight modification in it leads to a bettrt cleaning system.
 
-
 ## 4W's and 1'H
 
 ## Who
