@@ -16,12 +16,6 @@
     1. Flowchart
     1. Data flow transistion  
     1. State-transistion 
-    1. Behavioural Diagram
-        1. High Level Flow chart Behavioural Diagram
-        1. Low Level Flow chart Behavioural Diagram
-    1. Structural Diagram
-        1. High Level UML Use Case Structural Diagram
-        1. Low Level UML Use Case Structural Diagram
 1. Test plan and Output
     1. High level test plan
     1. Low level test plan
