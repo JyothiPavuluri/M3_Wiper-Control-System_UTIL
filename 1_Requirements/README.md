@@ -50,7 +50,6 @@ The Following are the important components to build Wiper Control System
  * The wipers are synchronized with each other.
  *  The washing function includes spraying, wiping and purging. 
 
-
 ## SWOT Analysis- Strengths, and Weakness, Opportunities threats
 
 ## Strengths
