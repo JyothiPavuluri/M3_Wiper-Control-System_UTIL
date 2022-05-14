@@ -17,9 +17,9 @@
 |LLT4|Check for Ignition at LOCK |user button is pressed for 2Secs| Red Led is OFF | Red Led is OFF |✔|
 
 
-# The Test Plan Of The Project Is:
+# The Test Plan Of The Project Is
 * To know the importance of the project.
 * The working conditions of the project.
-* The working principle and architecture of sensors.
+* The working principle and architecture of sensor.
 * The microcontroller chip.
-* The sensors interfacing with the microcontroller.
+* The sensor interfacing with the microcontroller.
