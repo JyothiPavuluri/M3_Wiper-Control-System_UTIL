@@ -6,9 +6,9 @@ Scenario: Wiper Control System. Ignition Key Position at ACC: The Red LED is ON,
 
 # SDLC Activity Based Learning
  
- Build Linux | Build Windows | Static Check | Dynamic Check | Valgrind | Unity Testing | [Git Inspector](using github.io option)
-------| ------- |---------- | ------- |------- |-------|--------------
-
+| Build Linux | Build Windows | Static Check | Dynamic Check | Valgrind | Unity Testing | [Git Inspector](using github.io option)
+|------| ------- |---------- | ------- |------- |-------|--------------
+| [![Build Linux](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Build%20Linux.yml/badge.svg)](https://github.com/JyothiPavuluri/M3_Wiper-Control-System_UTIL/actions/workflows/Build%20Linux.yml) |
 
 
  
