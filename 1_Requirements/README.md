@@ -1,5 +1,4 @@
-
-#  Introduction
+#   Introduction
 
 *   wipers keep the windshield of a vehicle clear from rain water, snow, dust and road spray. The first windshield wipers were operated manually by moving a lever inside the car. Later wiper designs were powered by the engine's manifold vacuum. Virtually all wipers today employ an electric motor coupled with a linkage mechanism and are actuated by a knob beside the steering wheel. The wiper blade speed can be adjusted by the driver.
 *   Modern windshield wipers may also be run intermittently. The intermittent wiper option cycles the wipers on and off every few seconds rather than running constantly. Intermittent control first appeared in automobiles in the 1970's. The original intermittent wipers were controlled by a constant power source that was routed through a series of switches. Now, virtually all automotive wipers are controlled by a microprocessor.
@@ -38,13 +37,13 @@ The Following are the important components to build Wiper Control System
 
 ## Features
 
- *  Wiper Control System controls up to 9 windshield wipers. 
- *  Each wiper has its own on/off  button.
- *  Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
- *  buttons are available for Low/High Speed, Heating and Washing functions. 
- *  In Low speed mode the interval can be varied with the Interval+/Interval- pushbuttons.
- *  The wipers are synchronized with each other.
- *  The washing function includes spraying, wiping and purging. 
+ *   Wiper Control System controls up to 9 windshield wipers. 
+ *   Each wiper has its own on/off  button.
+ *   Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
+ *   buttons are available for Low/High Speed, Heating and Washing functions. 
+ *   In Low speed mode the interval can be varied with the Interval+/Interval- pushbuttons.
+ *   The wipers are synchronized with each other.
+ *   The washing function includes spraying, wiping and purging. 
  
 ## SWOT Analysis- Strengths, and Weakness, Opportunities threats
 
