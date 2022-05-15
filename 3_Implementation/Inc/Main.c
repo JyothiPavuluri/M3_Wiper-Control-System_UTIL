@@ -31,6 +31,8 @@
 
 
 //STARTING of Main PROGRAM
+
+
 int main()
 {
 	int i,b=0,j=0;  //Declaring and Initilizing Variables
