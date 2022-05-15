@@ -13,4 +13,3 @@ On press of the user input, Blue, Green and Orange LEDs come ON one at a time wi
 ## Video
 
 https://user-images.githubusercontent.com/101269692/168483138-866bf6df-738e-489a-bcc5-b692e315b9ba.mp4
-
