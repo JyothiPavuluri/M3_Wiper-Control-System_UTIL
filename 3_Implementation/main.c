@@ -85,7 +85,7 @@ static void wiper_cycle4(void)
 	     led_OFF(LED_ORANGE);
 }
 
-int main(void)
+int main()
 
 {
 	led_init_all();
