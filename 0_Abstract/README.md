@@ -21,14 +21,6 @@ and made to clear the water from a windscreen. Most of cars have two wipers on t
 window and the other on each headlight. The wiper parts visible from outside the car are the rubber blade, the wiper
 arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called pressure points or claws that are small arms under the wiper
 
-## Description
-
- The main purpose of the wiper system is to clean the windscreen sufficiently to provide suitable visibility at all times. The wiper system must perform the following tasks.
-  *  Efficient removal of dirt, water and snow.
-  *  Operation in the temperature range of 243 K to 353 K.
-  *  The ability to pass the stall and snow load test.
-  *  A service life of around 1500 000 wipe cycles.
-  *  Resistance to corrosion from acid,alkalis and ozone. 
 
 
 
