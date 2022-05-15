@@ -2,32 +2,32 @@
 
 ## About the Wiper Control System
 
-1. Abstract
+# Abstract
 
-   1.Objective
+   *   Objective
+   
+# Requirements
 
-2.  Requirements
+   *   Introduction
+   *   Benefits 
+   *   Basic Requirements
+   *   Used components
+   *   Features
+   *   5W’s & 1H and S.W.O.T analysis
+   *   High level requirements
+   *   Low level requirements
 
-    1. Introduction
-    2. Benefits 
-    3. Basic Requirements
-    4. Used components
-    5. Features
-    6. 5W’s & 1H and S.W.O.T analysis
-    7. High level requirements
-    8. Low level requirements
+# Architecture
 
-3.  Architecture
+   *   Block Diagram
+   *   Flowchart
+   *   Data flow transistion  
+   *   State-transistion 
 
-    1. Block Diagram
-    2. Flowchart
-    3. Data flow transistion  
-    4. State-transistion 
+# Test plan and Output
 
-4.  Test plan and Output
-
-    1. High level test plan
-    2. Low level test plan
+   *   High level test plan
+   *   Low level test plan
 
 ## 1. Abstract
 
@@ -63,7 +63,6 @@ Automatic Wipers can be understood as smart wipers that automatically turn on se
 
 *   Hardware Equipment
 *   Software
-
 
 ## Used components
 
