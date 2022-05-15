@@ -15,5 +15,3 @@
 |LLT2| Check for All LED's ON | on press the user input |All LED's shall ON at the same time|All LED's ON at the same time|✔|
 |LLT3| Check for All LED's OFF | on next press of the user input |All LED's shall OFF |All LED's OFF |✔|
 |LLT4|Check for Ignition at LOCK |user button is pressed for 2Secs| Red Led is OFF | Red Led is OFF |✔|
-
-
