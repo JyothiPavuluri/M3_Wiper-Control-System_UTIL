@@ -44,9 +44,7 @@ controller and water sensor. As the conclusion for the project, the results show
 objectives are successfully achieved. The wiper system was well functionally according the water condition from the outside of a
 car. 
 
-
 ## 2.REQUIREMENTS
-
 
 ##  Introduction
 
