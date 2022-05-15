@@ -147,8 +147,3 @@ The Following are the important components to build Wiper Control System
 | LLR3.1 | On press of the user input all LEDs come ON at a time |	LLR4.1 | Again, On press of the user input all LEDs come OFF at a time |
 | LLR3.2 | All LEDs come ON one at changes on every alternate key press |	LLR4.2 | The LED glow pattern stops on the 4th press |
 | LLR3.3 | then 3 frequency levels with 1,4 and 8HZ | LLR4.3 | then wiper action starts next press |
-
-
-
-
-
