@@ -42,10 +42,10 @@ The Following are the important components to build Wiper Control System
 *   Wiper Control System controls up to 9 windshield wipers. 
 *   Each wiper has its own on/off  button.
 *   Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
-*  buttons are available for Low/High Speed, Heating and Washing functions. 
-*  In Low speed mode the interval can be varied with the Interval+/Interval- pushbuttons.
-*  The wipers are synchronized with each other.
-*  The washing function includes spraying, wiping and purging. 
+*   buttons are available for Low/High Speed, Heating and Washing functions. 
+*   In Low speed mode the interval can be varied with the Interval+/Interval- pushbuttons.
+*   The wipers are synchronized with each other.
+*   The washing function includes spraying, wiping and purging. 
  
 ## SWOT Analysis- Strengths, and Weakness, Opportunities threats
 
