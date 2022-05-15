@@ -4,30 +4,30 @@
 
 1. Abstract
 
-    1. Objective
+   1. Objective
 
 2. Requirements
 
-    1. Introduction
-    2. Benefits 
-    3. Basic Requirements
-    4. Used components
-    5. Features
-    6. 5W’s & 1H and S.W.O.T analysis
-    7. High level requirements
-    8. Low level requirements
+    1.  Introduction
+    2.  Benefits 
+    3.  Basic Requirements
+    4.  Used components
+    5.  Features
+    6.  5W’s & 1H and S.W.O.T analysis
+    7.  High level requirements
+    8.  Low level requirements
 
 3. Architecture
 
-    1. Block Diagram
-    2. Flowchart
-    3. Data flow transistion  
-    4. State-transistion 
+    1.  Block Diagram
+    2.  Flowchart
+    3.  Data flow transistion  
+    4.  State-transistion 
 
 4. Test plan and Output
 
-    1. High level test plan
-    2. Low level test plan
+    1.  High level test plan
+    2.  Low level test plan
 
 
 ## 1. Abstract
@@ -64,109 +64,83 @@ Automatic Wipers can be understood as smart wipers that automatically turn on se
 
 ## Basic Requirements
 
-* Hardware Equipment
-
-* Software
+*   Hardware Equipment
+*   Software
 
 
 ## Used components
 
 The Following are the important components to build Wiper Control System
 
-* STM32F4 Microcontroller
-
-* 4 LEDs
-
-* 1 Push Button or Switch
-
-* 1 Timer
-
-* power Supply
-
-* USB Cable
-
+*   STM32F4 Microcontroller
+*   4 LEDs
+*   1 Push Button or Switch
+*   1 Timer
+*   power Supply
+*   USB Cable
 
 ## Features
 
- * Wiper Control System controls up to 9 windshield wipers. 
-
- * Each wiper has its own on/off  button.
-
- * Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
-
- * buttons are available for Low/High Speed, Heating and Washing functions. 
-
- * In Low speed mode the interval can be varied with the Interval+/Interval- pushbuttons.
-
- * The wipers are synchronized with each other.
-
- *  The washing function includes spraying, wiping and purging. 
-
+*   Wiper Control System controls up to 9 windshield wipers. 
+*   Each wiper has its own on/off  button.
+*   Blue,Green,Orange LEDs,Come ON and OFF alternately for set frequency State A, RED led will be ON and after wipers are grouped together for simultaneous on/off control.
+*   buttons are available for Low/High Speed, Heating and Washing functions. 
+*   In Low speed mode the interval can be varied with the Interval+/Interval- pushbuttons.
+*   The wipers are synchronized with each other.
+*   The washing function includes spraying, wiping and purging. 
 
 ## SWOT Analysis- Strengths, and Weakness, Opportunities threats
 
 ## Strengths
 
-
-
-* It is possible to operate manually/automatically by providing ON/OFF switch.
-
-* Easy usage of features with a user press button
-
-* You can make your own.
-
-* Cost Effective
+*   It is possible to operate manually/automatically by providing ON/OFF switch.
+*   Easy usage of features with a user press button
+*   You can make your own.
+*   Cost Effective
 
 ## Weakness
 
-* This system applied in the case of water falling on the class only.
-
-* Alert will be start when rain is there,sometimes it disturbs human.
-
-* Limited usage range
+*   This system applied in the case of water falling on the class only.
+*   Alert will be start when rain is there,sometimes it disturbs human.
+*   Limited usage range
 
 ## Opportunities
 
-* It improved visibility of car windshield during rain.
-
-* This mechanism can be applied to heavy automation like buses,trucks etc., with little modification.
-
-* It can be implemented at house window for cleaning.
+*   It improved visibility of car windshield during rain.
+*   This mechanism can be applied to heavy automation like buses,trucks etc., with little modification.
+*   It can be implemented at house window for cleaning.
 
 ## Threats
 
-
-* It is totally dependent on timer circuit.
-
-* A slight modification in it leads to a bettrt cleaning system.
+*   It is totally dependent on timer circuit.
+*   A slight modification in it leads to a bettrt cleaning system.
 
 ## 4W's and 1'H
 
 ## Who
 
-* The car wiper control system can be used by people who are all having car.
+*   The car wiper control system can be used by people who are all having car.
 
 ## What
 
-* Wiper Control System is build to clean or wipe the raindrops or any water from the windscreen. 
+*   Wiper Control System is build to clean or wipe the raindrops or any water from the windscreen. 
 
 ## When
 
-* The rain sensor based system functions when water falls on the sensor directly.
+*   The rain sensor based system functions when water falls on the sensor directly.
 
 ## Where
 
-* This system applied in the case of water falling on the class only.
+*   This system applied in the case of water falling on the class only.
 
 ## How
 
-* The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
-
-
+*   The Project is going to be implemented in  STM32F4 Microcontroller through a single Button.
 
 ## Detail requirements
 
 ## High Level Requirements
+
 | ID  | Component| Description  |
 |------|-------------|---------|
 |HLR01|LED |to represent the operation of Microcontroller |  
@@ -176,6 +150,7 @@ The Following are the important components to build Wiper Control System
 |HLR05|Switch|To make on and off Conditions|
 
 ## Low Level Requirements
+
 | ID | Low Level Requirements for HLR1 | ID | Low Level Requirements for HLR2 |
 | :---: | :---: | :---: | :---: |
 | LLR1.1 | If the user Button is pressed and held for 2 secs,the Red LED is ON | LLR2.1 | If the user Button is pressed and held for 2 secs,the Red LED is OFF |
@@ -190,13 +165,13 @@ The Following are the important components to build Wiper Control System
 ## Block Diagram
 ![Block-diagram-of-the-windshield-wiper-system](https://user-images.githubusercontent.com/101269692/168418998-7d8159a1-0b16-4cb5-8c91-f489d57ed2f7.png)
 
- ## Flowchart
+## Flowchart
  ![Flowchart Diagram](https://user-images.githubusercontent.com/101269692/168419015-421cc3a4-0b4c-41f8-b070-d039891cfc42.png)
 
- ## Data flow transistion  
+## Data flow transistion  
  ![Data flow transistion](https://user-images.githubusercontent.com/101269692/168419061-00297ca9-92c7-4ff5-91f6-2848de97fb23.png)
 
-  ## State-transistion 
+## State-transistion 
 ![State-transistion](https://user-images.githubusercontent.com/101269692/168419030-69964a6e-3f6d-4817-802b-454d1ef3ea83.png)
 
 ## 1.Test plan and Output
@@ -218,5 +193,3 @@ The Following are the important components to build Wiper Control System
 |LLT2| Check for All LED's ON | on press the user input |All LED's shall ON at the same time|All LED's ON at the same time|✔|
 |LLT3| Check for All LED's OFF | on next press of the user input |All LED's shall OFF |All LED's OFF |✔|
 |LLT4|Check for Ignition at LOCK |user button is pressed for 2Secs| Red Led is OFF | Red Led is OFF |✔|
-
-
