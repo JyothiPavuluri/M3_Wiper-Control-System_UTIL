@@ -4,31 +4,30 @@
 
 1. Abstract
 
-   1. Objective
+   1.Objective
 
-2. Requirements
+2.  Requirements
 
-    1.  Introduction
-    2.  Benefits 
-    3.  Basic Requirements
-    4.  Used components
-    5.  Features
-    6.  5W’s & 1H and S.W.O.T analysis
-    7.  High level requirements
-    8.  Low level requirements
+    1. Introduction
+    2. Benefits 
+    3. Basic Requirements
+    4. Used components
+    5. Features
+    6. 5W’s & 1H and S.W.O.T analysis
+    7. High level requirements
+    8. Low level requirements
 
-3. Architecture
+3.  Architecture
 
-    1.  Block Diagram
-    2.  Flowchart
-    3.  Data flow transistion  
-    4.  State-transistion 
+    1. Block Diagram
+    2. Flowchart
+    3. Data flow transistion  
+    4. State-transistion 
 
-4. Test plan and Output
+4.  Test plan and Output
 
-    1.  High level test plan
-    2.  Low level test plan
-
+    1. High level test plan
+    2. Low level test plan
 
 ## 1. Abstract
 
@@ -46,7 +45,7 @@ car.
 
 ## 2.REQUIREMENTS
 
-##  Introduction
+## Introduction
 
 Scenario: Wiper Control System.
 Ignition Key Position at ACC: The Red LED is ON, if the user button is pressed and held for 2 secs
@@ -69,7 +68,6 @@ Automatic Wipers can be understood as smart wipers that automatically turn on se
 ## Used components
 
 The Following are the important components to build Wiper Control System
-
 *   STM32F4 Microcontroller
 *   4 LEDs
 *   1 Push Button or Switch
