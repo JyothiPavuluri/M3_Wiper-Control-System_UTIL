@@ -1,33 +1,4 @@
-# Table of content
-
-## About the Wiper Control System
-
-# Abstract
-
-   *   Objective
-   
-# Requirements
-
-   *   Introduction
-   *   Benefits 
-   *   Basic Requirements
-   *   Used components
-   *   Features
-   *   5W’s & 1H and S.W.O.T analysis
-   *   High level requirements
-   *   Low level requirements
-
-# Architecture
-
-   *   Block Diagram
-   *   Flowchart
-   *   Data flow transistion  
-   *   State-transistion 
-
-# Test plan and Output
-
-   *   High level test plan
-   *   Low level test plan
+# Wiper Control System
 
 ## 1. Abstract
 
