@@ -19,11 +19,4 @@ is recommended that the system to have a study on the wiper material that been u
 and climate country are facing the problems regards to the wiper material.n. Wipers are designed
 and made to clear the water from a windscreen. Most of cars have two wipers on the windscreen, one on the rear
 window and the other on each headlight. The wiper parts visible from outside the car are the rubber blade, the wiper
-arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called pressure points or claws that are small arms under the wiper
-
-
-
-
-
-
-
+arm holding the blade, a spring linkage, and parts of the wiper pivots. The wiper itself has about six parts called pressure points or claws that are small arms under the wiper.
